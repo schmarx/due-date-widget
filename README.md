@@ -5,15 +5,15 @@
 To allow this widget to be selectable, everything underneath `./package` must be placed in the directory `~/.local/share/plasma/plasmoids/schmarx.custom_widget`.
 
 The widget looks for a file `package/contents/ui/data.json` that contains a list of the following form:
-```json
+```jsonc
 [
     [
         "Module",
         "Assignment",
         "dd/mm/yyyy", // date
         "hh:mm"       // time
-    ],
-    ...
+    ]
+    // ...
 ]
 ```
 
