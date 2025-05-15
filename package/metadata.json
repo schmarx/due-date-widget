@@ -1,0 +1,16 @@
+{
+    "KPlugin": {
+        "Authors": [
+            {
+                "name": "schmarx"
+            }
+        ],
+        "Category": "General",
+        "Description": "Keep track of due dates",
+        "Icon": "battery",
+        "Id": "schmarx.custom_widget",
+        "Version": "1"
+    },
+    "X-Plasma-API-Minimum-Version": "6.0",
+    "KPackageStructure": "Plasma/Applet"
+}
